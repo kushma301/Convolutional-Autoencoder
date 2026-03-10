@@ -132,8 +132,8 @@ def visualize_denoising(model, loader, num_images=5):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name:  Kowsalya M")
-    print("Register Number: 212222230069")
+    print("Name:  KUSHMA S")
+    print("Register Number: 212224040168")
     plt.figure(figsize=(18, 6))
     for i in range(num_images):
         # Original
@@ -157,6 +157,7 @@ def visualize_denoising(model, loader, num_images=5):
     plt.tight_layout()
     plt.show()
 
+
 # Run training and visualization
 train(model, train_loader, criterion, optimizer, epochs=5)
 visualize_denoising(model, test_loader)
@@ -170,7 +171,7 @@ visualize_denoising(model, test_loader)
 
 ### Original vs Noisy Vs Reconstructed Image
 
-<img width="690" height="651" alt="image" src="https://github.com/user-attachments/assets/f4bb6ff8-efe7-4b9c-b478-2e4991ae4e73" />
+<img width="1063" height="572" alt="image" src="https://github.com/user-attachments/assets/af372e18-b489-4010-9fb7-82f385079e0b" />
 
 
 ## RESULT
